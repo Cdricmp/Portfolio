@@ -1,0 +1,235 @@
+/***************HEADER**************/
+.container-fluid
+{
+    width: 60%;
+    margin: 0 auto;
+    -moz-box-shadow: 0 0 10px #555;  
+	-webkit-box-shadow: 0 0 10px #555;  
+	box-shadow: 0 0 10px #555;
+}
+.container1
+{
+    width: 100%;
+    display: flex;
+}
+.logo
+{
+    height: 5vh;
+}
+.titresite h1
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 3vw;
+    font-style: oblique;
+}
+.titresite p
+{
+    font-size: 0.9vw;
+    margin-top: 0px;
+    color: rosybrown;
+}
+.contact
+{
+    margin-left: auto;
+}
+.aide 
+{
+    z-index: 2;
+    position: relative;
+}
+.numero
+{
+    color: rgb(87, 223, 233);
+    z-index: 2;
+    position: relative;
+    right: 14vh;
+    bottom: 0.5vh;
+    font-size: 1.1vw;
+}
+.contact h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.7vw;
+    color: rgb(87, 223, 233);
+}
+.contact p
+{
+    margin-top: 0;
+    font-size: 0.9vw;
+    color: grey;
+}
+.compte
+{
+    margin-left: auto;
+    background-color: rgb(87, 223, 233);
+    color: white;
+}
+.compte .moncompte
+{
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: 2px solid white;
+}
+.compte span
+{
+    display: flex;
+}
+/******************* NAV ********************/
+.container2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    background-color: rgb(87, 223, 233);
+    height: 4vh;
+    align-items: center;
+}
+.container2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.container2 a:hover
+{
+    background-color: rosybrown;
+}
+/***************** BANDEAU ****************/
+.container3 img
+{
+    width: 100%;
+}
+/************** INFO ***************/
+.container4
+{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+.fond
+{
+    margin-top: 2vh;
+}
+.paiement
+{
+    width: 20%;
+}
+.apropos
+{
+    width: 50%;
+}
+.services
+{
+    width: 20%;
+}
+.paiement p
+{
+    font-size: 1vw;
+    color: rgb(87, 223, 233);
+}
+.paiement img
+{
+    margin-top: 15px;
+}
+
+.apropos p
+{
+    font-size: 1vw;
+    color: rgb(87, 223, 233);
+}
+.services .titreservice
+{
+    font-size: 1vw;
+    color: rgb(87, 223, 233);
+}
+.services img
+{
+    height: 3vh;
+}
+.services article
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/**************** PRODUITS *****************/
+.container5
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container5 img
+{
+    height: 12vh;
+    margin-right: 2vh;
+}
+.container5 a
+{
+    float: right;
+    margin-right: 2vh;
+}
+
+.gauche
+{
+    width: 30%;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #555;  
+	-webkit-box-shadow: 0 0 10px #555;  
+	box-shadow: 0 0 10px #555; 
+}
+.millieu
+{
+    width: 30%;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #555;  
+	-webkit-box-shadow: 0 0 10px #555;  
+	box-shadow: 0 0 10px #555; 
+}
+.droite
+{
+    width: 30%;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #555;  
+	-webkit-box-shadow: 0 0 10px #555;  
+	box-shadow: 0 0 10px #555; 
+}
+.titreproduits
+{
+    text-align: center;
+    margin:0;
+    padding:5px;
+    background-color:#9DADC6;
+	border:1px solid #8E98A4;
+	border-bottom:0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.robe,.chaussure,.chemise
+{
+    display: flex;
+}
+/************* FOOTER ***************/
+.container6
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: rgb(87, 223, 233);
+    width: 100%;
+    margin-top: 3vh;
+}
+.container6 a
+{
+    text-decoration: none;
+    color: white;
+}

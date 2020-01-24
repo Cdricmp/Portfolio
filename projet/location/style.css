@@ -1,0 +1,124 @@
+/************CSS HEADER************/
+.container-fluid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 65vh !important;
+    width: 100%;
+    background: url(./img/background.jpg) no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+}
+.collapse{
+    position: absolute;
+}
+#navbarToggleExternalContent{
+    position: absolute;
+}
+.pls{
+    margin: 0;
+    width: 100%;
+    justify-content: flex-end !important ;
+    background: unset;
+}
+
+h1, .soustitre{
+    text-align: center;
+    color: white;
+}
+.soustitre{
+    font-size: 1rem;
+}
+#dropdownMenuButton{
+    background: lightgrey;
+    color: black;
+}
+.menunav2{
+    display: flex;
+    opacity: 0.9;
+    position: relative;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: lightgrey;
+    margin-top: 40vh;
+    
+}
+.date{
+    border-radius: 5px;
+}
+.submit{
+    width: 30%;
+    background: limegreen;
+    color: white;
+    margin-left: 1vh;
+}
+/*************CSS MAIN**************/
+.corpsdepage{
+ margin: 0 auto;
+}
+#navbarDropdownMenuLink{
+    color: black;
+}
+.carou{
+    list-style: none;
+}
+.prev{
+    position: relative;
+    right: 35vh;
+    top: 3vh;
+    cursor: pointer;
+}
+.next{
+    position: relative;
+    top: 3vh;
+    cursor: pointer;
+}
+.resultatrecherche{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+}
+.resultsearch{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.voiture{
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.description{
+    text-align: initial;
+}
+.validation{
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
+.corpsdepage img{
+    height: 15vh;
+}
+
+
+
+
+/*************CSS FOOTER**************/
+.cardfooter{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.imgagence{
+    height: 12vh;
+    width: 20%;
+}
+.contact{
+    width: 30%;
+    text-align: initial;
+    margin-left: 1vh;
+}

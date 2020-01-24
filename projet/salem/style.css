@@ -1,0 +1,163 @@
+/*************** HEADER *************/
+.container-fluid
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.container1
+{
+    background-color: grey;
+}
+.haut
+{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+}
+main img
+{
+    height: 4vh;
+}
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8vw;
+    margin-right: 2vh;
+}
+nav a:hover
+{
+    color: orangered;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-top: 8vh;
+}
+.orangered
+{
+    color: orangered;
+}
+.trait
+{
+    display: flex;
+    margin: auto;
+}
+.texttitre
+{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    color: white;
+}
+/***************** ARTICLE ******************/
+.container2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+}
+.container2 img
+{
+    height: 3vh;
+    margin-top: 1vh;
+    margin-right: 2vh;
+}
+.titrehaut,.titrebas
+{
+    display: flex;
+    font-size: 0.7vw;
+}
+.gauche,.millieu,.droite
+{
+    width: 30%;
+}
+/**************** TRUSTED AVIS ************/
+.container3
+{
+    width: 100%;
+}
+.container3 h2
+{
+    color: orangered;
+    border-left: 3px solid;
+    margin-left: 2vh;
+    padding-left: 2vh;
+}
+.image
+{
+    display: flex;
+    justify-content: space-around;
+}
+.image img
+{
+    width: 24.5%;
+    height: 20vh;
+}
+/*************** INFO *************/
+.container4
+{
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+    background-color: rgb(235, 235, 235);
+    margin-top: 5vh;
+    padding-top: 8vh;
+}
+.container4 p
+{
+    font-size: 0.8vw;
+    color: orangered;
+}
+/************** FOOTER ***************/
+.container5
+{
+    background-color: rgb(0, 0, 0);
+}
+.container5 span
+{
+    position: relative;
+    top: 2vh;
+    font-size: 0.7vw;
+    left: 4vh;
+    color: white;
+}
+.container5 p
+{
+    text-align: center;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+form
+{
+    position: relative;
+    top: 2vh;
+    left: 2vh;
+}
+#name
+{
+    width: 25%;
+    background-color: black;
+}
+.reseau
+{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    right: 5vh;
+}
+.reseau img
+{
+    height: 2.5vh;
+    width: 2vh;
+}

@@ -1,0 +1,272 @@
+body
+{
+    margin: 0;
+}
+.container-fluid
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+/************ HEADER **************/
+.container1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+.titre
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+.gold
+{
+    color: goldenrod;
+}
+.titre img
+{
+    height: 5vh;
+}
+.compte
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+    height: 6vh;
+    width: 20%;
+    background-color: rgb(190, 190, 190);
+    position: relative;
+    top: 3vh;
+    left: 20vh;
+}
+.nomcompte
+{
+    height: 2vh;
+    position: relative;
+    top: 9vh;
+    left: 9vh;
+    margin-top: 1vh;
+}
+.compte section
+{
+    display: flex;
+}
+.compte img
+{
+    height: 3vh;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+nav
+{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    right: 35vh;
+}
+nav a 
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 4vh;
+    border-left: 1px solid;
+    padding-left: 3vh;
+}
+nav .deconnexion
+{
+    border-right: 1px solid;
+    padding-right: 3vh;
+}
+
+@media (max-width: 1200px){
+    .compte p{
+        display: none;
+    }
+}
+/************** BANDEAU ***************/
+.container2
+{
+    width: 60%;
+    margin: 0 auto;
+}
+.container2 img
+{
+    width: 100%;
+}
+/************** MAIN *******************/
+.container3
+{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+.container3 .gant
+{
+    border: 2px solid grey;
+    height: 28vh;
+    box-shadow: 0px 0px 20px grey;
+}
+.container3 img
+{
+    height: 25vh;
+}
+.container3 p
+{
+    margin-top: 0px;
+}
+.haut
+{
+    display: flex;
+    justify-content: space-around;
+}
+.bas
+{
+    display: flex;
+    justify-content: space-around;
+}
+.description
+{
+    display: flex;
+    justify-content: center;
+
+}
+.prix
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh
+}
+.prix a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    height: 2.5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.prixavant
+{
+    text-decoration: line-through;
+}
+.prixapres
+{
+    font-size: 1.5vw;
+    color: goldenrod;
+}
+.reduction
+{
+    width: 20%;
+    border: 1px solid transparent;
+    color: goldenrod;
+    background-color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 3vh;
+    align-items: center;
+    box-shadow: 0px 0px 15px grey;
+    position: relative;
+    top: 4vh;
+    left: 23vh;
+}
+/*************FOOTER ******************/
+.container4
+{
+    background-color: dimgrey;
+    color: white;
+}
+.traitnoir
+{
+    width: 100%;
+    height: 3vh;
+    background-color: dimgrey;
+}
+.traitblanc
+{
+    height: 3vh;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+.hautfooter
+{
+    margin-bottom: -2vh;
+}
+.menufooter
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -3.1vh;
+}
+.menufooter a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.pointmedian
+{
+    margin-top: 0px;
+    color: grey;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1.9vw;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.menubas
+{
+    display: flex;
+    border: 1px solid transparent;
+    background-color: gainsboro;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    position: relative;
+    box-shadow: 0px 10px 20px black;
+}
+.articlefooter
+{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: auto;
+}
+.articlefooter article
+{
+    width: 20%;
+    font-size: 0.8vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+.articlefooter img
+{
+    height: 6vh;
+}
+.reseau
+{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin: auto;
+    margin-top: 5vh;
+}
+.reseau img
+{
+    height: 3vh;
+}
+.copyright
+{
+    text-align: center;
+}
