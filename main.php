@@ -3,7 +3,7 @@
         <div class="row bandeau">
             <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0;">
                 <img src="img/backgroundaccueil.jpg" alt="bandeau" class="bandeau">
-                <h1 class="titre_1">Présentation</h1>
+                <h1 class="titre_1 first">Présentation</h1>
             </div>
         </div>
         
@@ -11,11 +11,11 @@
             <div class="col-sm-3 col-md-6 col-lg-4 mx-auto">
                 <img src="img/photomoi.jpg" alt="developpeur web" class="photo">
                 <button type="button" class="btn-message">
-                Nouveaux Message de Cédric Pierrard <span class="badge badge-light">1</span>
+                Nouveaux Message de Cédric Pierrard <span class="badge badge-light nbmsg">1</span>
                 </button>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center aboutme">
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <aside class="autobio">
                     <p style="padding: 3vh;">
@@ -38,11 +38,11 @@
         <div class="row bandeau2">
             <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0;">
                 <img src="img/competences.jpg" alt="bandeau" class="bandeau">
-                <h1 class="titre_1">Mes Compétences</h1>
+                <h1 class="titre_1 second">Mes Compétences</h1>
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center front">
             <div class="col-sm-6 col-md-6 col-lg-6" style="display:flex; justify-content: space-between;">
                 <span>
                     <h2 class="display-4 text-dark">Front End</h2>
@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center back">
             <div class="col-sm-6 col-md-6 col-lg-6" style="text-align:center;">
                 <h3 class="display-4">Dominance Compétences <br> Front / <span style="color:rgb(143, 50, 205);">Back</span></h3>
                 <div class="pie" style="animation-delay: -60s; margin-bottom:2vh;">
@@ -72,14 +72,14 @@
     </section>
 
     <section id="projets">
-        <div class="row bandeau2">
+        <div class="row bandeau2 lastBnd">
             <div class="col-sm-12 col-md-12 col-lg-12" style="padding:0;">
                 <img src="img/realisation.jfif" alt="bandeau" class="bandeau">
-                <h1 class="titre_1">Mes réalisations</h1>
+                <h1 class="titre_1 third">Mes réalisations</h1>
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center projo">
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <h3 class="display-4" style="text-align: center;">Maquette Front</h3>
                 <div class="projets">
@@ -114,10 +114,6 @@
                 </div>
             </div>
         </div>
-            <div class="row justify-content-center" style="text-align: center;">
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                <h3 class="display-4">Développement Back</h3>
-                </div>
-            </div>
+            
     </section>
 </main>

@@ -28,17 +28,16 @@ body{
 
 
 .bandeau{
-    max-height: 50vh;
+    max-height: 60vh;
     width: 100%;
-    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
     margin: 0;
 }
 .bandeau2{
     max-height: 50vh;
     width: 100%;
-    clip-path: polygon(50% 0, 100% 10%, 100% 100%, 50% 90%, 0 100%, 0 10%);
     margin: 0;
 }
+
 main{
     min-height: 80vh;
 }
@@ -187,6 +186,7 @@ footer{
     bottom: 0;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.2em;
+    
 }
 .row{
     min-height: 8vh; 
