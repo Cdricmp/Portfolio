@@ -83,11 +83,34 @@
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <h3 class="display-4" style="text-align: center;">Maquette Front</h3>
                 <div class="projets">
-                    <iframe class="projetsAffichage" src="projet/boutique/index2.html" frameborder="0"></iframe>
-                    <iframe class="projetsAffichage" src="projet/salem/index.html" frameborder="0"></iframe>
-                    <iframe class="projetsAffichage" src="projet/voyage/index.html" frameborder="0"></iframe>
-                    <iframe class="projetsAffichage" src="projet/boxeshop/index.html" frameborder="0"></iframe>
-                    <iframe class="projetsAffichage" src="projet/location/index.html" frameborder="0"></iframe>
+                    <div class = "row justify-content-center">
+                        <a href = "projet/boxeshop/index.html" target="_blank" class = "column col-xs-6 col-md-6" id = "caption">
+                            <span class = "text">
+                                <h1>Boutique équipement Boxe</h1>
+                            </span>
+                            <img src ="projet/boxeshop/img/logo.png">
+                        </a>
+                        <a href = "projet/salem/index.html" target="_blank" class = "column col-xs-6 col-md-6" id = "caption">
+                            <span class = "text">
+                                <h1>Agence Web </h1>
+                            </span>
+                            <img src ="projet/salem/img/logo.jpg">
+                        </a>
+
+                        <a href = "projet/voyage/index.html" target="_blank" class = "column col-xs-6 col-md-6" id = "caption">
+                            <span class = "text">
+                                <h1>Agence de Voyage</h1>
+                            </span>
+                            <img src ="projet/voyage/images/Projet  Mise en place-main.jpg">
+                        </a>
+
+                        <a href = "projet/location/index.html" target="_blank" class = "column col-xs-6 col-md-6" id = "caption">
+                            <span class = "text">
+                                <h1>Agence Location</h1>
+                            </span>
+                            <img src ="projet/location/img/vehicule4.png">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
